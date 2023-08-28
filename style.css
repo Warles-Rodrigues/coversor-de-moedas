@@ -1,0 +1,108 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Teko', sem serifa;
+    outline-color:none;
+    text-align: center;
+}    
+
+body{
+    background-color: black;
+}
+
+
+.logo{
+    margin:12px auto;
+    display:block;
+    width: 300px;
+    height: 250px;
+}
+
+main{
+    margin:0 auto 40px;
+    background: #04cdf0;
+    Width:375px;
+    border-radius: 20px;
+    padding:44px 24px 23px;
+   
+
+}
+label{
+    font-size: 14px;
+    font-weight: 400;
+    color:black ;
+    
+
+}
+select,input{
+    font-size: 16px;
+    Line-height: 18px;
+    Width:100%;
+    Height:48px;
+    margin-bottom:24px;
+    cursor:pointer;
+    font-weight: 700px;
+    border-radius: 4px;
+    border: 1px solid #bbbbbb;
+    background:#ffffff;
+    appearance: none;
+    color:#000000;
+    padding-left: 18px;
+}
+input{
+    cursor:text;
+}
+button{
+    border-radius: 5px;
+    Width:327px;
+    margin-bottom: 36px ;
+    Height:48px;
+    background-color:black;
+    color:#ffffff;
+    border:none;
+    cursor:pointer;
+    font-weight: 700px;
+}
+
+button:hover{
+    opacity:.8;
+}
+button:active{
+    opacity: 0.6;
+    background-color:yellow;
+    color:black;
+}
+
+section{
+    border: 3px solid #ffff00;
+    border-radius: 20px;
+    padding:12px;
+    margin-top:36px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.arrow-image{
+    margin: 15px 0;
+}
+.currency{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+.paragrafo{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.value-to-convert , .value-converted{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    color: #000000;
+    
+}
